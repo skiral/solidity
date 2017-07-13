@@ -80,7 +80,7 @@ bool SyntaxChecker::visit(PragmaDirective const& _pragma)
 			);
 		m_versionPragmaFound = true;
 	}
-	else if (literal == "checkAssertionsZ3")
+	else if (literal == "checkAssertions")
 	{
 	}
 	else
